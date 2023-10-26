@@ -7,11 +7,15 @@ export default function GalleryImg(props: any) {
         <Typography
           as="p"
           color="white"
-          className="text-xl md:text-3xl capitalize text-center p-3 line-clamp-1"
+          className="text-base md:text-3xl capitalize text-center p-3 line-clamp-1"
         >
           {props.desc}
         </Typography>
-        <Button className="my-5" variant="gradient" color="white">
+        <Button
+          className="px-1 md:px-6 py-2 md:py-3 my-5"
+          variant="gradient"
+          color="white"
+        >
           <a href="/">Visit Now</a>
         </Button>
       </div>

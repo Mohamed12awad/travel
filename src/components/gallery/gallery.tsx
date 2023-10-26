@@ -34,7 +34,7 @@ export default function Gallery() {
           </a>
         </div>
       </div>
-      <div className="gallery-imgs h-[700px] grid gap-5 grid-cols-3 grid-rows-3 mt-12">
+      <div className="gallery-imgs h-[400px] md:h-[600px] grid gap-5 grid-cols-3 grid-rows-3 mt-12">
         <GalleryImg src={myHeader[0]} desc="explore the temples of luxors" />
         <GalleryImg
           src={myHeader[1]}

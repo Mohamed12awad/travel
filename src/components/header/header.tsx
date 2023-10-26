@@ -13,8 +13,9 @@ function Header() {
     <header className="mt-5 w-full max-w-7xl px-8">
       <div className="flex mx-auto flex-wrap justify-between relative">
         <div className="head-text w-full relative md:py-12 md:w-1/2">
-          <h1 className="text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-bold pt-16 tracking-wider">
-            Explore <br /> Beautiful <span className="text-5xl">&#10024;</span>
+          <h1 className="text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-bold pt-16 tracking-wider">
+            Explore <br /> Beautiful{" "}
+            <span className="text-4xl md:text-5xl">&#10024;</span>
             <br /> World!
           </h1>
           <Typography as="p" variant="lead" className="text-lg pe-5 mt-3">
